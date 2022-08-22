@@ -1,0 +1,1064 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Raleway:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Body{
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/690/846/392/pattern-dark-texture-black-wallpaper-preview.jpg);
+    overflow:auto;
+            
+}
+
+.Header{
+    display: grid;
+    
+}
+
+.main{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:0.2fr 1fr 0.2fr;
+    grid-template-areas: 
+        ". labelName ."
+        ". Presentacion ."
+        ". . .";
+    
+}                       
+
+.Titulo{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    color: aliceblue;
+    background: rgb(59,50,145);
+    background: linear-gradient(90deg, rgba(59,50,145,1) 0%, rgba(73,91,135,1) 50%, rgba(59,50,145,1) 100%);
+    
+    
+}
+
+.menu{
+    list-style-type:none;
+    text-align: center;
+    background: rgb(86,71,228);
+    background: linear-gradient(248deg, rgba(86,71,228,1) 0%, rgba(117,140,198,1) 50%, rgba(80,66,217,1) 100%);
+    padding: 10px;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu li{
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-block: 10px;
+
+}
+
+.menucolor a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+}
+
+.menucolor a:hover{
+    text-decoration: underline;
+}
+
+
+                     
+.labelName{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    
+    padding-top: 20px;
+    
+    color: white;
+    grid-area: labelName;
+    
+    
+    
+}
+
+.presentacionMain{
+    padding: 20px;
+    margin-top: 0px;
+    grid-area: Presentacion;
+    
+}
+
+.intro{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    width: 600px;
+    height: 200px;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/808/962/394/light-gray-wallpaper-preview.jpg);
+    background-size: auto;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 30px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    max-width: 100%;
+    
+    
+           
+}
+
+.imagenintro{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.Footer{
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    background: rgb(59,50,145);
+    background: linear-gradient(90deg, rgba(59,50,145,1) 0%, rgba(73,91,135,1) 50%, rgba(59,50,145,1) 100%);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    position:sticky;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    grid-area: Footer;
+   
+
+}
+
+
+/* HASTA ACA EL INICIO */
+
+/* ARTISTAS  */
+
+.presentacionArtistas{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.2fr;
+    grid-template-rows: 0.2fr 0.5fr 0.5fr 0.5fr 0.5fr 0.1fr;
+    grid-template-areas: ". TextoArtistas ."
+                         ". divBen ."
+                         ". divRod ."
+                         ". divOsc ."
+                         ". divDvs ."
+                         "boton . .";
+                              
+
+
+} 
+
+.boton{
+    grid-area: boton;
+    margin-top: 100%;
+}
+
+.TextoArtistas{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+    grid-area: TextoArtistas;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divBen{
+    grid-area: divBen;
+}
+.Ben{
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 50px;
+    margin-top: 40px;
+    color: white;
+    text-decoration: underline;
+
+}
+
+.FotoBen{ 
+    display: block;     
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.PresentacionBen{
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 30px;
+    background-color: gray;
+    color: rgb(0, 0, 0);
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/808/962/394/light-gray-wallpaper-preview.jpg);
+    display:block
+    
+}
+
+.divRod{
+    grid-area: divRod;
+}
+
+.Rodhad{
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 50px;
+    margin-top: 40px;
+    color: white;
+
+}
+
+.FotoRod{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.PresentacionRod{
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 30px;
+    background-color: gray;
+    color: rgb(0, 0, 0);
+    height: auto;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/808/962/394/light-gray-wallpaper-preview.jpg);
+}
+
+.divOsc{
+    grid-area: divOsc;
+}
+
+.Oscar{
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 50px;
+    margin-top: 40px;
+    color: white;
+
+}
+
+.FotoOsc{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.PresentacionOscar{
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 30px;
+    background-color: gray;
+    color: rgb(0, 0, 0);
+    height: auto;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/808/962/394/light-gray-wallpaper-preview.jpg);
+}
+
+.divDvs{
+    grid-area: divDvs;
+}
+
+.DVS{
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 50px;
+    margin-top: 40px;
+    color: white;
+
+}
+
+.FotoDVS{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.PresentacionDVS{
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 30px;
+    background-color: gray;
+    color: rgb(0, 0, 0);
+    height: auto;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/808/962/394/light-gray-wallpaper-preview.jpg);
+}
+
+/* PODCASTS */ 
+
+.TextoPodcasts{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+
+.BackG{
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/690/846/392/pattern-dark-texture-black-wallpaper-preview.jpg);
+}
+
+.PodBen{
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 50px;
+    margin-top: 40px;
+    color: white;
+}
+
+.BenPod{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.PodRod{
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 50px;
+    margin-top: 40px;
+    color: white;
+}
+
+.RodPod{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.PodOsc{
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 50px;
+    margin-top: 40px;
+    color: white;
+}
+
+.OscPod{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.PodDvs{
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 50px;
+    margin-top: 40px;
+    color: white;
+}
+
+.DvsPod{
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+
+.Footer{
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    background-color: rgb(68, 68, 68);
+    
+
+}
+
+/* CONTACTO */ 
+
+.TextoContacto{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+
+.FormColor{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    
+}
+
+.FormColor2{
+    margin-left: 25px;
+}
+
+.TextArea{
+    margin-left: 25px;
+}
+
+/* RELEASES */ 
+
+.TextoReleases{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+
+.Band{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.BandLogo{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 768px){
+
+    /*Inicio*/
+
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+    .imagenintro{
+        width: 200px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+    }
+
+    .labelName{
+         font-family: 'Raleway', sans-serif;
+         margin-left: auto;
+         margin-right: auto;
+         padding-top: 35px;
+         padding-bottom: 30px;
+         text-align: center;
+         color: rgb(117, 138, 255);
+         height: fit-content; 
+         width: fit-content;  
+         display: flex;
+         justify-content: center;  
+    }
+
+    .Footer{
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        background: rgb(59,50,145);
+        background: linear-gradient(90deg, rgba(59,50,145,1) 0%, rgba(73,91,135,1) 50%, rgba(59,50,145,1) 100%);
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        position:sticky;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+    }
+
+    /*Artistas*/
+    
+    .presentacionArtistas{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+     
+    .TextoArtistas{
+        display: flex;
+        flex-direction: column;
+        color: rgb(117, 138, 255);
+    }
+
+    .FotoBen{
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        max-width: 100%;
+        width: 80%;
+        max-height: 100%;
+        height: 80%;
+    }
+
+    .PresentacionBen{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .FotoRod{
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        max-width: 100%;
+        width: 80%;
+        max-height: 100%;
+        height: 80%;
+    }
+
+    .PresentacionRod{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .FotoOsc{
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        max-width: 100%;
+        width: 80%;
+        max-height: 100%;
+        height: 80%;
+    }
+
+    .PresentacionOscar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .FotoDVS{
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        max-width: 100%;
+        width: 80%;
+        max-height: 100%;
+        height: 80%;
+    }
+
+    .PresentacionDVS{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*Podcasts*/
+ 
+    .TextoPodcasts{
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+        margin-left: 10px;
+        padding-top: 35px;
+        padding-bottom: 30px;
+        text-align: center;
+        color: rgb(117, 138, 255);
+    }
+
+        .FotoBen{
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        width: 80%;
+        max-height: 100%;
+        height: 80%;
+    }
+
+    .PodBen{
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        font-size: 50px;
+        margin-top: 40px;
+        color: rgb(117, 138, 255);
+        text-decoration: underline;
+    }
+
+    .PodRod{
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        font-size: 50px;
+        margin-top: 40px;
+        color: rgb(117, 138, 255);
+        text-decoration: underline;
+    }
+
+    .PodOsc{
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        font-size: 50px;
+        margin-top: 40px;
+        color: rgb(117, 138, 255);
+        text-decoration: underline;
+    }
+
+    .PodDvs{
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        font-size: 50px;
+        margin-top: 40px;
+        color: rgb(117, 138, 255);
+        text-decoration: underline;
+    }
+
+    /*Contacto*/
+
+    .mainContacto{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .TextoContacto{
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        margin-left: 10px;
+        padding-top: 35px;
+        padding-bottom: 30px;
+        text-align: center;
+        color: rgb(117, 138, 255);
+    }
+
+    /*Releases*/
+
+    .mainReleases{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .TextoReleases{
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        margin-left: 10px;
+        padding-top: 35px;
+        padding-bottom: 30px;
+        text-align: center;
+        color: rgb(117, 138, 255);
+    }
+          
+    
+}
+
+     /* MEDIA QUERIE 480PX */ 
+
+@media screen and (max-width: 480px){
+
+    /*Inicio*/
+
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+    .imagenintro{
+        width: 200px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+    }
+
+    .labelName{
+         font-family: 'Raleway', sans-serif;
+         margin-left: auto;
+         margin-right: auto;
+         padding-top: 35px;
+         padding-bottom: 30px;
+         text-align: center;
+         color: rgb(117, 138, 255);
+         height: fit-content; 
+         width: fit-content;  
+         display: flex;
+         justify-content: center;  
+         text-decoration: underline;
+    }
+
+    .Footer{
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        background: rgb(59,50,145);
+        background: linear-gradient(90deg, rgba(59,50,145,1) 0%, rgba(73,91,135,1) 50%, rgba(59,50,145,1) 100%);
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        position:sticky;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+    }
+
+    /*Artistas*/
+    
+    .presentacionArtistas{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+     
+    .TextoArtistas{
+        display: flex;
+        flex-direction: column;
+        text-decoration: underline;
+        color: rgb(117, 138, 255);
+    }
+
+    .FotoBen{
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        max-width: 100%;
+        width: 80%;
+        max-height: 100%;
+        height: 80%;
+    }
+
+    .PresentacionBen{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .FotoRod{
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        max-width: 100%;
+        width: 80%;
+        max-height: 100%;
+        height: 80%;
+    }
+
+    .PresentacionRod{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .FotoOsc{
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        max-width: 100%;
+        width: 80%;
+        max-height: 100%;
+        height: 80%;
+    }
+
+    .PresentacionOscar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .FotoDVS{
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        max-width: 100%;
+        width: 80%;
+        max-height: 100%;
+        height: 80%;
+    }
+
+    .PresentacionDVS{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*Podcasts*/
+ 
+    .TextoPodcasts{
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+        margin-left: 10px;
+        padding-top: 35px;
+        padding-bottom: 30px;
+        text-align: center;
+        color: rgb(117, 138, 255);
+        text-decoration: underline;
+    }
+
+        .FotoBen{
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        width: 80%;
+        max-height: 100%;
+        height: 80%;
+    }
+
+    .PodBen{
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        font-size: 50px;
+        margin-top: 40px;
+        color: rgb(117, 138, 255);
+        text-decoration: underline;
+    }
+
+    .PodRod{
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        font-size: 50px;
+        margin-top: 40px;
+        color: rgb(117, 138, 255);
+        text-decoration: underline;
+    }
+
+    .PodOsc{
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        font-size: 50px;
+        margin-top: 40px;
+        color: rgb(117, 138, 255);
+        text-decoration: underline;
+    }
+
+    .PodDvs{
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        font-size: 50px;
+        margin-top: 40px;
+        color: rgb(117, 138, 255);
+        text-decoration: underline;
+    }
+
+    /*Contacto*/
+
+    .mainContacto{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .TextoContacto{
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        margin-left: 10px;
+        padding-top: 35px;
+        padding-bottom: 30px;
+        text-align: center;
+        color: rgb(117, 138, 255);
+        text-decoration: underline;
+    }
+
+    /*Releases*/
+
+    .mainReleases{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .TextoReleases{
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        margin-left: 10px;
+        padding-top: 35px;
+        padding-bottom: 30px;
+        text-align: center;
+        color: rgb(117, 138, 255);
+        text-decoration: underline;
+    }
+
+}
+
+
+    /* MEDIA QUERIE 320px */
+
+@media screen and (max-width: 320px){
+
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu li{
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-block: 10px;
+    
+    }
+    .imagenintro{
+        width: 100px;
+        height: 100px;
+    }
+
+    .labelName{
+         font-family: 'Raleway', sans-serif;
+         margin-left: 10px;
+         padding-top: 35px;
+         padding-bottom: 30px;
+         text-align: center;
+         color: rgb(64, 78, 161); 
+         height: fit-content; 
+         width: fit-content;    
+    }
+
+    .Footer{
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        background: rgb(59,50,145);
+        background: linear-gradient(90deg, rgba(59,50,145,1) 0%, rgba(73,91,135,1) 50%, rgba(59,50,145,1) 100%);
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        position:sticky;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+    }
+
+
+    /*Podcasts*/
+
+    .TextoPodcasts{
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+        margin-left: 10px;
+        padding-top: 35px;
+        padding-bottom: 30px;
+        text-align: center;
+        color: rgb(117, 138, 255);
+    }
+
+        .FotoBen{
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        width: 80%;
+        max-height: 100%;
+        height: 80%;
+    }
+
+    .PodBen{
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        font-size: 50px;
+        margin-top: 40px;
+        color: rgb(117, 138, 255);
+        text-decoration: underline;
+    }
+
+    .PodRod{
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        font-size: 50px;
+        margin-top: 40px;
+        color: rgb(117, 138, 255);
+        text-decoration: underline;
+    }
+
+    .PodOsc{
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        font-size: 50px;
+        margin-top: 40px;
+        color: rgb(117, 138, 255);
+        text-decoration: underline;
+    }
+
+    .PodDvs{
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        font-size: 50px;
+        margin-top: 40px;
+        color: rgb(117, 138, 255);
+        text-decoration: underline;
+    }
+
+    /*Contacto*/
+
+    .mainContacto{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .TextoContacto{
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        margin-left: 10px;
+        padding-top: 35px;
+        padding-bottom: 30px;
+        text-align: center;
+        color: rgb(117, 138, 255);
+    }
+
+    /*Releases*/
+
+    .mainReleases{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .TextoReleases{
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        margin-left: 10px;
+        padding-top: 35px;
+        padding-bottom: 30px;
+        text-align: center;
+        color: rgb(117, 138, 255);
+    }
+
+    
+                
+}
+
+
+
+
+
+
+
