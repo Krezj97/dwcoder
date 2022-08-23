@@ -34,8 +34,8 @@
     font-size: 60px;
     text-align: center;
     color: aliceblue;
-    background: rgb(59,50,145);
-    background: linear-gradient(90deg, rgba(59,50,145,1) 0%, rgba(73,91,135,1) 50%, rgba(59,50,145,1) 100%);
+    background: rgb(57,57,57);
+    background: linear-gradient(266deg, rgba(57,57,57,1) 0%, rgba(11,11,11,1) 51%, rgba(57,57,57,1) 100%);
     
     
 }
@@ -43,8 +43,8 @@
 .menu{
     list-style-type:none;
     text-align: center;
-    background: rgb(86,71,228);
-    background: linear-gradient(248deg, rgba(86,71,228,1) 0%, rgba(117,140,198,1) 50%, rgba(80,66,217,1) 100%);
+    background: rgb(57,57,57);
+    background: linear-gradient(266deg, rgba(57,57,57,1) 0%, rgba(11,11,11,1) 51%, rgba(57,57,57,1) 100%);
     padding: 10px;
     justify-content: space-between;
     justify-content: center;
