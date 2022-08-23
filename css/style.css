@@ -133,8 +133,8 @@
 .Footer{
     text-align: center;
     font-family: 'Inconsolata', monospace;
-    background: rgb(59,50,145);
-    background: linear-gradient(90deg, rgba(59,50,145,1) 0%, rgba(73,91,135,1) 50%, rgba(59,50,145,1) 100%);
+    background: rgb(57,57,57);
+    background: linear-gradient(266deg, rgba(57,57,57,1) 0%, rgba(11,11,11,1) 51%, rgba(57,57,57,1) 100%);
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -145,6 +145,10 @@
     grid-area: Footer;
    
 
+}
+
+.footerC{
+    color: white;
 }
 
 
