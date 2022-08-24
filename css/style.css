@@ -6,128 +6,19 @@
     box-sizing: border-box;
 }
 
-.Body{
-    background-image: url(https://p4.wallpaperbetter.com/wallpaper/690/846/392/pattern-dark-texture-black-wallpaper-preview.jpg);
-    overflow:auto;
-            
-}
-
-.Header{
-    display: grid;
-    
-}
-
-.main{
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-    grid-template-rows:0.2fr 1fr 0.2fr;
-    grid-template-areas: 
-        ". labelName ."
-        ". Presentacion ."
-        ". . .";
-    
-}                       
-
-.Titulo{
-    font-family: 'Inconsolata', monospace;
-    font-weight: 900;
-    font-size: 60px;
-    text-align: center;
-    color: aliceblue;
-    background: rgb(57,57,57);
-    background: linear-gradient(266deg, rgba(57,57,57,1) 0%, rgba(11,11,11,1) 51%, rgba(57,57,57,1) 100%);
-    
-    
-}
-
-.menu{
-    list-style-type:none;
-    text-align: center;
-    background: rgb(57,57,57);
-    background: linear-gradient(266deg, rgba(57,57,57,1) 0%, rgba(11,11,11,1) 51%, rgba(57,57,57,1) 100%);
-    padding: 10px;
-    justify-content: space-between;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.menu li{
-    display: inline;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-block: 10px;
-
-}
-
-.menucolor a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    
-
-}
-
-.menucolor a:hover{
-    text-decoration: underline;
-}
-
-
-                     
-.labelName{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 30px;
-    
-    padding-top: 20px;
-    
-    color: white;
-    grid-area: labelName;
-    
-    
-    
-}
-
-.presentacionMain{
-    padding: 20px;
-    margin-top: 0px;
-    grid-area: Presentacion;
-    
+.imgFond{
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/690/846/392/pattern-dark-texture-black-wallpaper-preview.jpg); 
+    height: 90vh;
 }
 
 .intro{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 15px;
-    width: 600px;
-    height: 200px;
     background-image: url(https://p4.wallpaperbetter.com/wallpaper/808/962/394/light-gray-wallpaper-preview.jpg);
     background-size: auto;
-    margin: auto;
-    padding: 10px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 30px;
-    text-decoration: underline;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    max-width: 100%;
-    
-    
-           
-}
-
-.imagenintro{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    height: 300px;
-    width: 300px;
-    display: flex;
-    justify-content: center;
-    
-    
+    width: 600px;
+    height: 200px;
 }
 
 .Footer{
@@ -135,217 +26,33 @@
     font-family: 'Inconsolata', monospace;
     background: rgb(57,57,57);
     background: linear-gradient(266deg, rgba(57,57,57,1) 0%, rgba(11,11,11,1) 51%, rgba(57,57,57,1) 100%);
-    padding: 20px;
-    display: flex;
-    justify-content: center;
     position:sticky;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    grid-area: Footer;
-   
-
 }
-
-.footerC{
-    color: white;
-    text-decoration: underline;
-    size: 10px;
-}
-
 
 /* HASTA ACA EL INICIO */
 
-/* ARTISTAS  */
+/* ARTISTAS */ 
 
-.presentacionArtistas{
-    display: grid;
-    grid-template-columns: 0.2fr 1fr 0.2fr;
-    grid-template-rows: 0.2fr 0.5fr 0.5fr 0.5fr 0.5fr 0.1fr;
-    grid-template-areas: ". TextoArtistas ."
-                         ". divBen ."
-                         ". divRod ."
-                         ". divOsc ."
-                         ". divDvs ."
-                         "boton . .";
-                              
-
-
-} 
+.imgFondart{
+    background-image:url("../images/Fondomain.jpg")
+    
+}
 
 .boton{
     grid-area: boton;
     margin-top: 100%;
 }
 
-.TextoArtistas{
+.textoArtistas{
     font-family: 'Raleway', sans-serif;
-    margin-left: 10px;
-    padding-top: 35px;
-    padding-bottom: 30px;
-    text-align: center;
-    color: white;
-    grid-area: TextoArtistas;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .divBen{
     grid-area: divBen;
 }
-.Ben{
-    text-align: center;
-    font-family: 'Inconsolata', monospace;
-    font-size: 50px;
-    margin-top: 40px;
-    color: white;
-    text-decoration: underline;
 
-}
-
-.FotoBen{ 
-    display: block;     
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.PresentacionBen{
-    font-weight: 600;
-    font-size: 15px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 30px;
-    background-color: gray;
-    color: rgb(0, 0, 0);
-    height: auto;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    background-image: url(https://p4.wallpaperbetter.com/wallpaper/808/962/394/light-gray-wallpaper-preview.jpg);
-    display:block
-    
-}
-
-.divRod{
-    grid-area: divRod;
-}
-
-.Rodhad{
-    text-decoration: underline;
-    text-align: center;
-    font-family: 'Inconsolata', monospace;
-    font-size: 50px;
-    margin-top: 40px;
-    color: white;
-
-}
-
-.FotoRod{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-.PresentacionRod{
-    font-weight: 600;
-    font-size: 15px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 30px;
-    background-color: gray;
-    color: rgb(0, 0, 0);
-    height: auto;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-    background-image: url(https://p4.wallpaperbetter.com/wallpaper/808/962/394/light-gray-wallpaper-preview.jpg);
-}
-
-.divOsc{
-    grid-area: divOsc;
-}
-
-.Oscar{
-    text-decoration: underline;
-    text-align: center;
-    font-family: 'Inconsolata', monospace;
-    font-size: 50px;
-    margin-top: 40px;
-    color: white;
-
-}
-
-.FotoOsc{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-.PresentacionOscar{
-    font-weight: 600;
-    font-size: 15px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 30px;
-    background-color: gray;
-    color: rgb(0, 0, 0);
-    height: auto;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-    background-image: url(https://p4.wallpaperbetter.com/wallpaper/808/962/394/light-gray-wallpaper-preview.jpg);
-}
-
-.divDvs{
-    grid-area: divDvs;
-}
-
-.DVS{
-    text-decoration: underline;
-    text-align: center;
-    font-family: 'Inconsolata', monospace;
-    font-size: 50px;
-    margin-top: 40px;
-    color: white;
-
-}
-
-.FotoDVS{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-.PresentacionDVS{
-    font-weight: 600;
-    font-size: 15px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 30px;
-    background-color: gray;
-    color: rgb(0, 0, 0);
-    height: auto;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-    background-image: url(https://p4.wallpaperbetter.com/wallpaper/808/962/394/light-gray-wallpaper-preview.jpg);
-}
+/* HASTA ACA ARTISTAS */ 
 
 /* PODCASTS */ 
 
