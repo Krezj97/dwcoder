@@ -11,6 +11,10 @@
     height: 90vh;
 }
 
+.imgFondart{
+    background-image:url(/images/fondo.jpg)
+}
+
 .intro{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
