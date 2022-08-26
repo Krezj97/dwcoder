@@ -28,15 +28,13 @@
     height: 200px;
 }
 
-.Footer{
+.footer{
     text-align: center;
     font-family: 'Inconsolata', monospace;
     background: rgb(57,57,57);
     background: linear-gradient(266deg, rgba(57,57,57,1) 0%, rgba(11,11,11,1) 51%, rgba(57,57,57,1) 100%);
     position:sticky;
 }
-
-/* HASTA ACA EL INICIO */
 
 /* ARTISTAS */ 
 
@@ -59,11 +57,25 @@
     grid-area: divBen;
 }
 
-/* HASTA ACA ARTISTAS */ 
+.carousel .carousel-item {
+    height: 500px;
+    
+  }
+  
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    margin-left: 450px;
+    min-height: 500px;
+    width: auto;
+    height: auto;
+}
 
 /* PODCASTS */ 
 
-.TextoPodcasts{
+.textoPodcasts{
     font-family: 'Raleway', sans-serif;
     margin-left: 10px;
     padding-top: 35px;
@@ -72,51 +84,51 @@
     color: white;
 }
 
-.PodBen{
+.podBen{
     text-align: center;
     font-family: 'Inconsolata', monospace;
     font-size: 50px;
     color: white;
 }
 
-.BenPod{
+.benPod{
     padding-left: 375px;
 }
 
-.PodRod{
+.podRod{
     text-align: center;
     font-family: 'Inconsolata', monospace;
     font-size: 50px;
     color: white;
 }
 
-.RodPod{
+.rodPod{
     padding-left: 375px
 }
 
-.PodOsc{
+.podOsc{
     text-align: center;
     font-family: 'Inconsolata', monospace;
     font-size: 50px;
     color: white;
 }
 
-.OscPod{
+.oscPod{
     padding-left: 375px
 }
 
-.PodDvs{
+.podDvs{
     text-align: center;
     font-family: 'Inconsolata', monospace;
     font-size: 50px;
     color: white;
 }
 
-.DvsPod{
+.dvsPod{
     padding-left: 375px;
 }
 
-.Footer{
+.footer{
     text-align: center;
     font-family: 'Inconsolata', monospace;
     background-color: rgb(68, 68, 68);
@@ -124,11 +136,9 @@
 
 }
 
-/* HASTA ACA PODCASTS */
-
 /* CONTACTO */ 
 
-.TextoContacto{
+.textoContacto{
     font-family: 'Raleway', sans-serif;
     margin-left: 10px;
     padding-top: 35px;
@@ -137,7 +147,7 @@
     color: white;
 }
 
-.FormColor{
+.formColor{
     color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -145,11 +155,11 @@
     
 }
 
-.FormColor2{
+.formColor2{
     margin-left: 45px;
 }
 
-.TextArea{
+.textArea{
     margin-left: 45px;
     margin-top: 20px;
 }
@@ -161,7 +171,7 @@
 
 /* RELEASES */ 
 
-.TextoReleases{
+.textoReleases{
     font-family: 'Raleway', sans-serif;
     margin-left: 10px;
     padding-top: 35px;
@@ -170,7 +180,7 @@
     color: white;
 }
 
-.Band{
+.band{
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -189,7 +199,7 @@
     margin-left: 200px;
 }
 
-.BandLogo{
+.bandLogo{
     height: 200px;
     width: 200px;
     display: block;
