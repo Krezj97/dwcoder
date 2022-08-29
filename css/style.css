@@ -14,7 +14,7 @@
 
 .navbar-nav{
     padding-right: 100px;
-    gap: 100px;
+    gap: 30px;
     font-size: 25px;
 }
 
@@ -53,18 +53,10 @@
 
 }
 
-
-/* .carousel .carousel-item {
-    height: 500px;
-    
-} */
-  
-/* .carousel-item img {
-    margin-left: 350px;
-    min-height: 500px;
-    width: auto;
-    height: auto;
-} */
+.carousel-item{
+    margin-left: 25%;
+    margin-right: auto;
+}
 
 /* PODCASTS */ 
 
@@ -85,7 +77,8 @@
 }
 
 .benPod{
-    padding-left: 375px;
+    margin-left: 10%;
+    margin-right: auto;
 }
 
 .podRod{
@@ -96,7 +89,8 @@
 }
 
 .rodPod{
-    padding-left: 375px
+    margin-left: 10%;
+    margin-right: auto;
 }
 
 .podOsc{
@@ -107,7 +101,8 @@
 }
 
 .oscPod{
-    padding-left: 375px
+    margin-left: 10%;
+    margin-right: auto;
 }
 
 .podDvs{
@@ -118,7 +113,8 @@
 }
 
 .dvsPod{
-    padding-left: 375px;
+    margin-left: 10%;
+    margin-right: auto;
 }
 
 .footer{
@@ -202,3 +198,41 @@
     margin-bottom: 25px;
 }
 
+/* TRANSFORMS */
+
+.benPod:hover {
+    transform: scale(1.1) translateY(-10px);
+    transition: all 1s;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.rodPod:hover {
+    transform: scale(1.1) translateY(-10px);
+    transition: all 1s;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.oscPod:hover {
+    transform: scale(1.1) translateY(-10px);
+    transition: all 1s;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.dvsPod:hover {
+    transform: scale(1.1) translateY(-10px);
+    transition: all 1s;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.linkBand:hover {
+    transform: scale(1.1) translateY(-20px);
+    transition: all 2s;
+
+}
+
+/* ANIMISTA */
+
+.tracking-in-expand{-webkit-animation:tracking-in-expand 1s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both}
+
+ @-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
