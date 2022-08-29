@@ -53,25 +53,18 @@
 
 }
 
-.divBen{
-    grid-area: divBen;
-}
 
-.carousel .carousel-item {
+/* .carousel .carousel-item {
     height: 500px;
     
-  }
+} */
   
-.carousel-item img {
-    position: absolute;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    margin-left: 450px;
+/* .carousel-item img {
+    margin-left: 350px;
     min-height: 500px;
     width: auto;
     height: auto;
-}
+} */
 
 /* PODCASTS */ 
 
