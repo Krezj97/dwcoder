@@ -12,10 +12,18 @@
     height: 100vh
    }
 
+.navbar-toggler{
+    color: white;
+}
 .navbar-nav{
     padding-right: 150px;
     gap: 30px;
     font-size: 25px;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: underline;
 }
 
 .labelName{
@@ -30,8 +38,9 @@
 
 .intro{
     font-family: 'Comfortaa', cursive;
+    font-size: larger;
     width: 600px;
-    height: 200px;
+    height: auto;
     display:flex;
     flex-direction:column
 }
@@ -69,6 +78,7 @@
     font-family: 'Comfortaa', cursive;
     margin-left: 200px;
     margin-right: 200px;
+    font-size: large;
 }
 .boton{
     grid-area: boton;
@@ -95,7 +105,6 @@
 
 .textoPodcasts{
     font-family: 'Raleway', sans-serif;
-    margin-left: 10px;
     padding-top: 35px;
     padding-bottom: 30px;
     text-align: center;
@@ -119,7 +128,6 @@
 
 .textoContacto{
     font-family: 'Raleway', sans-serif;
-    margin-left: 10px;
     padding-top: 35px;
     padding-bottom: 30px;
     text-align: center;
@@ -280,6 +288,11 @@
         justify-content: center;
         position: static;
     }
+
+    .badge{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
 } 
 
 @media screen and (max-width: 480px){
@@ -293,7 +306,7 @@
 
     .intro{
         width: auto;
-        height: auto;
+        font-size:medium
     }
 
     .labelName{
@@ -328,7 +341,78 @@
         display: flex;
         justify-content: center;
         position: static;
-        
-        
     }
-}  
+
+    .nArtista{
+        font-size: 2rem;
+    }
+
+    .textoArtistas{
+        font-size: medium;
+    }
+
+    .textoContacto{
+        font-size: medium;
+    }
+
+    .textArea{
+        font-size: medium;
+        margin-left: 10%;
+    }
+    .badge{
+        font-size: small;
+        width: 100%;
+        height: 100%;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+} 
+
+@media screen and (max-width: 320px){
+     
+    .imgIntro{
+        height: 30%;
+        width: 30%;
+        margin-left: 125px;
+        margin-top: 150px;
+    }
+
+    .intro{
+        width: auto;
+        font-size:medium
+    }
+
+    .labelName{
+        font-family: 'Comfortaa', cursive;
+        font-size: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 35px;
+        text-align: center;
+        height: fit-content; 
+        width: fit-content;  
+        display: flex;
+        justify-content: center;  
+    }
+
+    .labelName2{
+        font-family: 'Comfortaa', cursive;
+        font-size: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 20px;
+        text-align: center;
+        height: fit-content; 
+        width: fit-content;  
+        display: flex;
+        justify-content: center;  
+    }
+
+    .footer{
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        display: flex;
+        justify-content: center;
+        position: static;       
+    }
+}
