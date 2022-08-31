@@ -96,9 +96,12 @@
     margin-top: 35px;
 }
 
-.carousel-item{
-    margin-left: 25%;
-    margin-right: auto;
+.foto{
+    width: 600px;
+    height: 300px;
+    margin-left: 650px;
+    margin-bottom: 20px;
+   
 }
 
 /* PODCASTS */ 
@@ -255,6 +258,13 @@
         flex-direction: column;
     }
 
+    .foto{
+        width: 600px;
+        height: 300px;
+        margin-left: 75px;
+        margin-bottom: 20px;
+    }
+
     .labelName{
         font-family: 'Comfortaa', cursive;
         font-size: 2rem;
@@ -307,6 +317,13 @@
     .intro{
         width: auto;
         font-size:medium
+    }
+
+    .foto{
+        width: 400px;
+        height: 300px;
+        margin-left: 40px;
+        margin-bottom: 20px;
     }
 
     .labelName{
@@ -380,6 +397,13 @@
     .intro{
         width: auto;
         font-size:medium
+    }
+
+    .foto{
+        width: 300px;
+        height: 300px;
+        margin-left: 10px;
+        margin-bottom: 20px;
     }
 
     .labelName{
