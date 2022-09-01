@@ -1,0 +1,34 @@
+main{
+    .imgFond{
+        background-image:url("../images/Fondomain.jpg");
+        padding-bottom: 10px;
+        height: 100vh
+    }
+    .labelName{
+        font-family: 'Comfortaa', cursive;
+        font-size: 3rem;
+    }
+    
+    .labelName2{
+        font-family: 'Comfortaa', cursive;
+        font-size: 2rem;
+    }
+
+    .presentacionMain{
+        .intro{
+            font-family: 'Comfortaa', cursive;
+            font-size: larger;
+            width: 600px;
+            height: auto;
+            display:flex;
+            flex-direction:column
+        }
+        
+        .imgIntro{
+            height: 20%;
+            width: 20%;
+            margin-left: 750px;
+            margin-top: 50px;
+        }
+    }     
+}
