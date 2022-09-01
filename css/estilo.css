@@ -3,4 +3,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+header .navbar .navbar-toggler {
+  color: white;
+}
+header .navbar .navbar-nav {
+  padding-right: 150px;
+  gap: 30px;
+  font-size: 25px;
+}
+header .navbar .navbar-nav .nav-link {
+  color: white;
+  text-decoration: underline;
 }/*# sourceMappingURL=estilo.css.map */

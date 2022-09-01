@@ -1,0 +1,21 @@
+header{
+    .navbar{
+
+        .navbar-toggler{
+            color: white;
+        }
+        
+        .navbar-nav{
+            padding-right: 150px;
+            gap: 30px;
+            font-size: 25px;
+
+            .nav-link{
+                color: white;
+                text-decoration: underline;
+            }
+        }
+        
+    }
+    
+} 
