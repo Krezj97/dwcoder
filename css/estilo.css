@@ -42,12 +42,55 @@ header .navbar .navbar-nav .nav-link {
   display: flex;
   flex-direction: column;
 }
-.presentacionMain .imgIntro {
-  height: 20%;
-  width: 20%;
-  margin-left: 750px;
-  margin-top: 50px;
-  margin-bottom: 10px;
+.presentacionMain .iconosRedes {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+  justify-content: center;
+  color: white;
+  margin-top: 100px;
+}
+.presentacionMain .iconosRedes .fa-soundcloud, .presentacionMain .iconosRedes .fa-spotify, .presentacionMain .iconosRedes .fa-bandcamp, .presentacionMain .iconosRedes .fa-instagram {
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.presentacionMain .iconosRedes .fa-soundcloud:hover, .presentacionMain .iconosRedes .fa-spotify:hover, .presentacionMain .iconosRedes .fa-bandcamp:hover, .presentacionMain .iconosRedes .fa-instagram:hover {
+  background-color: gray;
+}
+
+.fa-soundcloud, .fa-spotify, .fa-bandcamp, .fa-instagram {
+  background-color: orange;
+}
+
+.fa-instagram {
+  background-color: rgb(253, 4, 158);
+}
+
+.fa-bandcamp {
+  background-color: cyan;
+}
+
+.fa-spotify {
+  background-color: green;
+}
+
+.fa-instagram {
+  background-color: rgb(253, 4, 158);
+}
+
+.fa-bandcamp {
+  background-color: cyan;
+}
+
+.fa-spotify {
+  background-color: green;
+}
+
+.fa-soundcloud, .fa-instagram, .fa-bandcamp, .fa-spotify {
+  width: 200px;
+  height: 100px;
 }
 
 .footer {

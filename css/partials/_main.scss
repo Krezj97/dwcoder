@@ -25,11 +25,60 @@
             flex-direction:column
         }
         
-        .imgIntro{
-            height: 20%;
-            width: 20%;
-            margin-left: 750px;
-            margin-top: 50px;
-            margin-bottom: 10px;
+        .iconosRedes{
+            display: flex;
+            align-items: center;
+            gap: 8rem;
+            justify-content: center;
+            color: white;
+            margin-top: 100px;
+                    
+            .fa-soundcloud{
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                &:hover {
+                    background-color: gray;
+                }
+            }
+           
         }
-    }     
+    
+    } 
+    
+$redes: (
+    soundcloud:orange,
+    instagram:rgb(253, 4, 158),
+    bandcamp:cyan,
+    spotify:green
+);
+
+@each $redSocial, $color in $redes {
+    .fa-#{$redSocial} {
+        background-color: $color;
+    }
+}
+
+.fa-instagram{
+    @extend .fa-soundcloud;
+    background-color: map-get($redes, instagram);
+}
+.fa-bandcamp{
+    @extend .fa-soundcloud;
+    background-color: map-get($redes, bandcamp);
+}
+.fa-spotify{
+    @extend .fa-soundcloud;
+    background-color: map-get($redes, spotify)
+}
+
+@mixin tamaños($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+    
+.fa-soundcloud{
+    @include tamaños (200px, 100px);
+}
