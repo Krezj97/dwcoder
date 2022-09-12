@@ -28,7 +28,7 @@
         .iconosRedes{
             display: flex;
             align-items: center;
-            gap: 8rem;
+            gap: 3rem;
             justify-content: center;
             color: white;
             margin-top: 100px;
@@ -45,9 +45,132 @@
             }
            
         }
+    }
+
+    /*ARTISTAS*/
+    .imgFondart{
+        background-image:url("../images/Fondomain.jpg");
+        height: 100%;      
+    }
+
+    .textoArtistas{
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .nArtista{
+        font-family: 'Comfortaa', cursive;
+        font-size: 4rem;
+        margin-top: 35px;
+    }
+
+    .badge{
+        font-family: 'Comfortaa', cursive;
+        margin-left: 200px;
+        margin-right: 200px;
+        font-size: large;
+    }
+
+    .foto{
+        width: 600px;
+        height: 300px;
+        margin-left: 650px;
+        margin-bottom: 20px;  
+    }
+    .boton{
+        grid-area: boton;
+        margin-top: 100%;
+    }
+/* PODCASTS */ 
+    .textoPodcasts{
+        font-family: 'Raleway', sans-serif;
+        padding-top: 35px;
+        padding-bottom: 30px;
+        text-align: center;
+        color: white;
+    }
+    .artPod{
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        font-size: 50px;
+        color: white;
+    }
+    .soundcloud{
+        margin-left: 10%;
+        margin-right: auto;
+    }
+
+/* CONTACTO */ 
+
+    .textoContacto{
+        font-family: 'Raleway', sans-serif;
+        padding-top: 35px;
+        padding-bottom: 30px;
+        text-align: center;
+        color: white;
+    }
+    .formColor{
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        
+        .formColor2{
+            margin-left: 45px;
+        }
+        .textArea{
+            margin-left: 45px;
+            margin-top: 20px;
+        }
+        .espacioContacto{
+            margin-bottom: 25px;
+            margin-top: 10px;
+        }  
+    }
+
+/* RELEASES */ 
+
+    .textoReleases{
+        font-family: 'Raleway', sans-serif;
+        margin-left: 10px;
+        padding-top: 35px;
+        padding-bottom: 30px;
+        text-align: center;
+        color: white;
+    }
+    .band{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        text-align: center;
+        list-style-type: none;
+    }
+
+    .linkBand{
+            text-decoration: none;
+            color: white;
+    }
+
+    .bandLogo{
+            height: 200px;
+            width: 200px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 25px;
+            margin-bottom: 25px;
+    }
     
-    } 
-    
+
+    #hr{
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+
+
+
+
+
+
 $redes: (
     soundcloud:orange,
     instagram:rgb(253, 4, 158),
