@@ -37,7 +37,7 @@ header .navbar .navbar-nav .nav-link {
 .presentacionMain .intro {
   font-family: "Comfortaa", cursive;
   font-size: larger;
-  width: 400px;
+  width: 600px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -225,4 +225,195 @@ header .navbar .navbar-nav .nav-link {
   height: 100px;
   bottom: 0;
   width: 100%;
+}
+
+/* TRANSFORMS */
+.soundcloud:hover {
+  transform: scale(1.1) translateY(-10px);
+  transition: all 1s;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.linkBand:hover {
+  transform: scale(1.1) translateY(-20px);
+  transition: all 2s;
+}
+
+/* ANIMISTA */
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.focus-in-expand {
+  -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+          animation: focus-in-expand 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+  }
+  .foto {
+    width: 600px;
+    height: 300px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+  }
+  .labelName {
+    font-family: "Comfortaa", cursive;
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    text-align: center;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+  }
+  .labelName2 {
+    font-family: "Comfortaa", cursive;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+  }
+  .footer {
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+    display: flex;
+    justify-content: center;
+    position: static;
+  }
+  .badge {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .presentacionMain .intro {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+  .foto {
+    width: 400px;
+    height: 300px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+  }
+  .presentacionMain .iconosRedes {
+    display: none;
+  }
+  .labelName {
+    font-family: "Comfortaa", cursive;
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    text-align: center;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+  }
+  .labelName2 {
+    font-family: "Comfortaa", cursive;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+  }
+  .footer {
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+    display: flex;
+    justify-content: center;
+    position: static;
+  }
+  .badge {
+    margin-left: 35px;
+    right: 200px;
+    height: 400px;
+    width: 400px;
+    overflow: scroll;
+  }
+  .nArtista {
+    font-size: 2rem;
+  }
 }/*# sourceMappingURL=estilo.css.map */
