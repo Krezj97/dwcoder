@@ -130,14 +130,11 @@ header .navbar .navbar-nav .nav-link {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 25px;
+  background-color: rgba(105, 105, 105, 0.692);
+  padding-left: 15px;
 }
-.formColor .formColor2 {
-  margin-left: 45px;
-}
-.formColor .textArea {
-  margin-left: 45px;
-  margin-top: 20px;
-}
+
+
 .formColor .espacioContacto {
   margin-bottom: 25px;
   margin-top: 10px;

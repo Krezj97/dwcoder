@@ -3,6 +3,9 @@
         display: flex;
         flex-direction: column;
     }
+    .presentacionMain .iconosRedes{
+        display: none;
+      }
     .foto{
         width: 600px;
         height: 300px;
@@ -45,7 +48,7 @@
         margin-left: 200px;
         margin-right: 200px;
     }
-  }
+}
   
   @media screen and (max-width: 480px){     
     .presentacionMain .intro{
@@ -87,7 +90,13 @@
         display: flex;
         justify-content: center;  
     }
-  
+    .formColor {
+        padding-left: 15px;
+    }
+    .textArea {
+        margin-left: 15px;
+        margin-top: 20px;
+    }    
     .footer{
         text-align: center;
         font-family: 'Inconsolata', monospace;
