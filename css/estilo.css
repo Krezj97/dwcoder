@@ -439,7 +439,7 @@ header .navbar .navbar-nav .nav-link {
     display: flex;
     flex-direction: column;
     width: 75%;
-    height: auto;
+    height: 50vh;
     overflow: scroll;
   }
   .foto {
@@ -498,7 +498,7 @@ header .navbar .navbar-nav .nav-link {
     font-family: "Inconsolata", monospace;
     display: flex;
     justify-content: center;
-    position: fixed;
+    position: static;
   }
   .badge {
     margin-left: 10%;
