@@ -37,7 +37,7 @@ header .navbar .navbar-nav .nav-link {
 .presentacionMain .intro {
   font-family: "Comfortaa", cursive;
   font-size: larger;
-  width: 600px;
+  width: 75%;
   height: auto;
   display: flex;
   flex-direction: column;
