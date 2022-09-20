@@ -37,7 +37,7 @@ header .navbar .navbar-nav .nav-link {
 .presentacionMain .intro {
   font-family: "Comfortaa", cursive;
   font-size: larger;
-  width: 75%;
+  width: 600px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -130,7 +130,6 @@ header .navbar .navbar-nav .nav-link {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 25px;
-  background-color: rgba(128, 128, 128, 0.61);
 }
 .formColor .formColor2 {
   margin-left: 45px;
@@ -344,6 +343,9 @@ header .navbar .navbar-nav .nav-link {
     display: flex;
     justify-content: center;
   }
+  .formColor {
+    background-color: rgba(128, 128, 128, 0.521);
+  }
   .footer {
     text-align: center;
     font-family: "Inconsolata", monospace;
@@ -408,6 +410,7 @@ header .navbar .navbar-nav .nav-link {
   }
   .formColor {
     padding-left: 15px;
+    background-color: rgba(128, 128, 128, 0.521);
   }
   .textArea {
     margin-left: 15px;
@@ -425,6 +428,81 @@ header .navbar .navbar-nav .nav-link {
     right: 200px;
     height: 400px;
     width: 400px;
+    overflow: scroll;
+  }
+  .nArtista {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 392px) {
+  .presentacionMain .intro {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+  }
+  .foto {
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .presentacionMain .iconosRedes {
+    display: none;
+  }
+  .divArt {
+    margin-left: 30px;
+  }
+  .labelName {
+    font-family: "Comfortaa", cursive;
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    text-align: center;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+  }
+  .labelName2 {
+    font-family: "Comfortaa", cursive;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+  }
+  .formColor {
+    padding-left: 15px;
+    background-color: rgba(128, 128, 128, 0.521);
+  }
+  .textArea {
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  .footer {
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+    display: flex;
+    justify-content: center;
+    position: static;
+  }
+  .badge {
+    margin-left: 10%;
+    height: 400px;
+    width: 75%;
     overflow: scroll;
   }
   .nArtista {
