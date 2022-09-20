@@ -130,11 +130,14 @@ header .navbar .navbar-nav .nav-link {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 25px;
-  background-color: rgba(105, 105, 105, 0.692);
-  padding-left: 15px;
 }
-
-
+.formColor .formColor2 {
+  margin-left: 45px;
+}
+.formColor .textArea {
+  margin-left: 45px;
+  margin-top: 20px;
+}
 .formColor .espacioContacto {
   margin-bottom: 25px;
   margin-top: 10px;
@@ -299,6 +302,9 @@ header .navbar .navbar-nav .nav-link {
     display: flex;
     flex-direction: column;
   }
+  .presentacionMain .iconosRedes {
+    display: none;
+  }
   .foto {
     width: 600px;
     height: 300px;
@@ -356,9 +362,9 @@ header .navbar .navbar-nav .nav-link {
     width: 400px;
   }
   .foto {
-    width: 400px;
+    width: 300px;
     height: 300px;
-    margin-left: 35px;
+    margin-left: 30px;
     margin-bottom: 20px;
   }
   .presentacionMain .iconosRedes {
@@ -396,6 +402,13 @@ header .navbar .navbar-nav .nav-link {
     display: flex;
     justify-content: center;
   }
+  .formColor {
+    padding-left: 15px;
+  }
+  .textArea {
+    margin-left: 15px;
+    margin-top: 20px;
+  }
   .footer {
     text-align: center;
     font-family: "Inconsolata", monospace;
@@ -404,7 +417,7 @@ header .navbar .navbar-nav .nav-link {
     position: static;
   }
   .badge {
-    margin-left: 35px;
+    margin-left: 10px;
     right: 200px;
     height: 400px;
     width: 400px;
